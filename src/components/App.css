@@ -1,0 +1,148 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .App {
+    
+    
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    
+    
+  }
+  
+  .product-form {
+   
+    margin: 25px 25px 25px 25px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+
+.product-form {
+    background-color: #f8f9fa; /* Light gray background for the form */
+    padding: 25px;
+    
+  }
+  
+  .product-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .product-form .form-group {
+    margin-bottom: 40px;
+  }
+  
+  .product-form input[type="text"] {
+    width: calc(140% - 60px);
+    padding: 30px;
+    font-size: 16px;
+    
+    background-color: #fff; /* White background for input fields */
+    
+  }
+  
+ 
+  
+  
+  
+  /* Additional styles for the heading */
+  p {
+    
+    float: left;
+    /* Padding top, right, bottom, and left */
+  }
+  
+  /* ... (other styles) ... */
+  .container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-left: 50px;
+  }
+  
+  .product-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none; 
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px; /* Set margin on all sides */
+}
+
+.product-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button {
+    margin: 1% 1% 1% 30%;
+    padding: 1% 10% 1% 1%;
+    background-color: #D9D9D9;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.product-form button:hover,
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.product-form button:active,
+button:active {
+    transform: scale(0.90); /* Slightly scale down on click */
+}
+
+  
